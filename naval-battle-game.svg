@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3c72;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#water)"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Naval Battle</text>
+  
+  <!-- Game Boards -->
+  <rect x="20" y="60" width="170" height="170" fill="#1e3c72" stroke="white" stroke-width="2"/>
+  <rect x="210" y="60" width="170" height="170" fill="#1e3c72" stroke="white" stroke-width="2"/>
+  
+  <!-- Grid Lines -->
+  <g stroke="rgba(255,255,255,0.3)" stroke-width="1">
+    <line x1="20" y1="77" x2="190" y2="77"/>
+    <line x1="20" y1="94" x2="190" y2="94"/>
+    <line x1="20" y1="111" x2="190" y2="111"/>
+    <line x1="20" y1="128" x2="190" y2="128"/>
+    <line x1="20" y1="145" x2="190" y2="145"/>
+    <line x1="20" y1="162" x2="190" y2="162"/>
+    <line x1="20" y1="179" x2="190" y2="179"/>
+    <line x1="20" y1="196" x2="190" y2="196"/>
+    <line x1="20" y1="213" x2="190" y2="213"/>
+    
+    <line x1="37" y1="60" x2="37" y2="230"/>
+    <line x1="54" y1="60" x2="54" y2="230"/>
+    <line x1="71" y1="60" x2="71" y2="230"/>
+    <line x1="88" y1="60" x2="88" y2="230"/>
+    <line x1="105" y1="60" x2="105" y2="230"/>
+    <line x1="122" y1="60" x2="122" y2="230"/>
+    <line x1="139" y1="60" x2="139" y2="230"/>
+    <line x1="156" y1="60" x2="156" y2="230"/>
+    <line x1="173" y1="60" x2="173" y2="230"/>
+  </g>
+  
+  <!-- Ships and Hits -->
+  <rect x="37" y="77" width="51" height="17" fill="#8e44ad"/>
+  <rect x="122" y="128" width="34" height="17" fill="#8e44ad"/>
+  <circle cx="54" cy="196" r="8" fill="#e74c3c"/>
+  <circle cx="105" cy="145" r="8" fill="#e74c3c"/>
+  
+  <!-- Player Labels -->
+  <text x="105" y="250" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Player</text>
+  <text x="295" y="250" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Computer</text>
+  
+  <!-- Explosions -->
+  <circle cx="261" cy="94" r="10" fill="#e74c3c"/>
+  <circle cx="261" cy="94" r="6" fill="#f39c12"/>
+  <circle cx="261" cy="94" r="3" fill="white"/>
+  
+  <circle cx="312" cy="179" r="10" fill="#e74c3c"/>
+  <circle cx="312" cy="179" r="6" fill="#f39c12"/>
+  <circle cx="312" cy="179" r="3" fill="white"/>
+</svg>
