@@ -1,5 +1,4 @@
-# Abhay Prasanna Rao             11/21/22
-# Assignment #6 Naval Battle
+# Abhay Prasanna Rao 
 
 import random
 

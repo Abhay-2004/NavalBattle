@@ -1,5 +1,4 @@
-# Abhay Prasanna Rao       11/21/22
-# Assignment 6 - Naval Battle
+# Abhay Prasanna Rao
 
 
 import gameBoard
@@ -22,7 +21,6 @@ def main():
     print()
 
     print("By: Abhay Prasanna Rao ")
-    print("[COM S 127 D]")
     print()
 
     while gameOver == False:
